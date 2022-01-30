@@ -95,7 +95,7 @@ right: 0;
 }
 .Credits{
     position: absolute;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0;
     bottom: 0;
@@ -119,4 +119,25 @@ right: 0;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px;
+    position: relative;
+}
+.Card{
+    display: block;
+    background-image: url("CartaFront.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    aspect-ratio: 13/22;
+    margin: auto;
+}
+.Message{
+    background: #272424a2;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    color: #fff;
+    padding: 20px;
+    bottom: 50px;
+    width: calc(100% - 20px);
+    border-radius: 20px;
 }
