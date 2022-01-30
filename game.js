@@ -10,12 +10,12 @@ const initGame = () => {
         matrizProbabilidad : Array con la probabilidad (de 0 a 1) de cada
           número de matrizNumeros.
 */
-function aleatorioConProbabilidad (min,max,matrizNumeros,matrizProbabilidad){
+function aleatorioConProbabilidad (matrizNumeros,matrizProbabilidad){
 	for (let i=0; i<matrizProbabilidad.length; i++) {
-		if (Math.floor(Math.random()*71)<=matrizProbabilidad[i]) {
+		if (Math.floor(Math.random()*71)<matrizProbabilidad[i]) {
 			return matrizNumeros[i];
         }
     }
 	//return Math.floor(Math.random()*(max-min+1)+min);
 }
-aleatorioConProbabilidad(1,4,[1,2,3,4],[70,50,20,1])
+aleatorioConProbabilidad([4,3,2,1],[1,20,50,70])
