@@ -12,22 +12,23 @@
 </head>
 <body>
     <main class="GameArea">
-        <section class="MainMenu">
+        <section class="MainMenu" id="Menu">
             <div class="MenuContainer">
                 <h1 class="Title NoSelect">SinCorp</h1>
                 <h2 class="Legend NoSelect">Keep that engine moving on...</h2>
                 <ul>
-                    <li><a href="#" class="GameButton NoSelect"><span>START NEW GAME </span></a></li>
+                    <li><a href="javascript:initGame()" class="GameButton NoSelect"><span>START NEW GAME </span></a></li>
                     <li><a href="#" class="GameButton NoSelect Disabled">CONTINUE</a></li>   
                 </ul>
             </div>
         </section>
-        <section class="MainGame">
-
+        <section class="MainGame" id="Main">
+            
         </section>  
         <footer class="Credits">
             <p class="NoSelect">&copy; 2022 Lirio Delirante</p>
         </footer>
     </main>
+    <script src="game.js"></script>
 </body>
 </html>
