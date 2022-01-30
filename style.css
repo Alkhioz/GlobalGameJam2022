@@ -20,14 +20,18 @@ body{
 }
 .MainMenu{
     height: 100%;
-    background-image: url("https://images.unsplash.com/photo-1580757468214-c73f7062a5cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+    background-image: url("MainScreen.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10px;
 }
 .MenuContainer{
-    background: #000000a2;
+    background: #272424a2;
     backdrop-filter: blur(5px);
     padding: 20px;
     border-radius: 20px;
+    width: min(700px, 100%);
 }
 .Title{
     font-size: 4rem;
@@ -36,7 +40,7 @@ body{
     color: rgb(195, 190, 223);
 }
 .Legend{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
     padding: 0;
     color: rgb(195, 190, 223);
@@ -105,4 +109,7 @@ right: 0;
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+}
+.MainGame{
+    display: none;
 }
