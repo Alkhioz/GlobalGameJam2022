@@ -122,14 +122,26 @@ right: 0;
     position: relative;
 }
 .Card{
-    display: block;
-    background-image: url("CartaFront.png");
+    display: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     aspect-ratio: 13/22;
     margin: auto;
+}
+#Madera{
+    display: block;
+    background-image: url("CartaFront.png");
+}
+#Carbon{
+    background-image: url("CartaFront.png");
+}
+#Biblias{
+    background-image: url("CartaFront.png");
+}
+#ParaisoFiscal{
+    background-image: url("CartaFront.png");
 }
 .Message{
     background: #272424a2;
