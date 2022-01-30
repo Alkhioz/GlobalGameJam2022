@@ -12,10 +12,10 @@ const initGame = () => {
 */
 function aleatorioConProbabilidad (min,max,matrizNumeros,matrizProbabilidad){
 	for (let i=0; i<matrizProbabilidad.length; i++) {
-		if (Math.random()<matrizProbabilidad[i]) {
+		if (Math.floor(Math.random()*71)<=matrizProbabilidad[i]) {
 			return matrizNumeros[i];
         }
     }
-	return Math.floor(Math.random()*(max-min+1)+min);
+	//return Math.floor(Math.random()*(max-min+1)+min);
 }
-aleatorioConProbabilidad(1,4,[1,2,3,4],[.7,.5,.2,.01])
+aleatorioConProbabilidad(1,4,[1,2,3,4],[70,50,20,1])
