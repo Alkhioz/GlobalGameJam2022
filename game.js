@@ -7,7 +7,7 @@ const initGame = () => {
     document.querySelector("#Madera").style.display = "none";
     document.querySelector("#Carbon").style.display = "none";
     document.querySelector("#Biblias").style.display = "none";
-    document.querySelector("#ParaisoFiscal").style.display = "none";
+    document.querySelector("#CO2").style.display = "none";
     switch (carta) {
         case 1:
             document.querySelector("#Madera").style.display = "block";
@@ -19,7 +19,7 @@ const initGame = () => {
             document.querySelector("#Biblias").style.display = "block";
             break;
         case 4:
-            document.querySelector("#ParaisoFiscal").style.display = "block";
+            document.querySelector("#CO2").style.display = "block";
             break;
     }
     timeraleatorio()
@@ -32,7 +32,7 @@ function timeraleatorio() {
         document.querySelector("#Madera").style.display = "none";
         document.querySelector("#Carbon").style.display = "none";
         document.querySelector("#Biblias").style.display = "none";
-        document.querySelector("#ParaisoFiscal").style.display = "none";
+        document.querySelector("#CO2").style.display = "none";
         switch (carta) {
             case 1:
                 document.querySelector("#Madera").style.display = "block";
@@ -44,7 +44,7 @@ function timeraleatorio() {
                 document.querySelector("#Biblias").style.display = "block";
                 break;
             case 4:
-                document.querySelector("#ParaisoFiscal").style.display = "block";
+                document.querySelector("#CO2").style.display = "block";
                 break;
         }
         timeraleatorio()

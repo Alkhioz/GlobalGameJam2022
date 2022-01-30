@@ -132,16 +132,16 @@ right: 0;
 }
 #Madera{
     display: block;
-    background-image: url("CartaFront.png");
+    background-image: url("CartaMadera.png");
 }
 #Carbon{
-    background-image: url("CartaFront.png");
+    background-image: url("CartaCoal.png");
 }
 #Biblias{
-    background-image: url("CartaFront.png");
+    background-image: url("CartaBible.png");
 }
-#ParaisoFiscal{
-    background-image: url("CartaFront.png");
+#CO2{
+    background-image: url("CartaC02.png");
 }
 .Message{
     background: #272424a2;
