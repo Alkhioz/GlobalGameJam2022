@@ -1,4 +1,4 @@
-let dinero,eficiencia_energetica,tiempo
+let dinero=35000,eficiencia_energetica=45000,tiempo
 
 const initGame = () => {
     document.querySelector("#Menu").style.display = "none";
