@@ -31,7 +31,7 @@ body{
     backdrop-filter: blur(5px);
     padding: 20px;
     border-radius: 20px;
-    width: min(700px, 100%);
+    width: min(500px, 100%);
 }
 .Title{
     font-size: 4rem;
@@ -52,13 +52,13 @@ ul{
 .GameButton{
     text-decoration: none;
     display: block;
-    background-color: rgb(124, 186, 236);
+    background-color: rgb(112, 50, 42);
     margin: 10px;
     padding: 10px;
-    font-size: 2.5rem;
-    color: rgb(38, 56, 90);
+    font-size: 2rem;
+    color: rgb(211, 170, 165);
     border-radius: 20px;
-    max-width: 500px;
+    max-width: 400px;
     transition: all 0.5s;
     text-align: center;
 }
@@ -84,13 +84,13 @@ opacity: 1;
 right: 0;
 }
 .Disabled{
-    background-color: rgb(216, 229, 245);
-    color: rgb(99, 91, 91);
+    background-color: rgba(248, 214, 224, 0.493);
+    color: rgba(87, 67, 67, 0.507);
     margin-left: 40px;
     pointer-events: none
 }
 .GameButton:hover{
-    background-color: rgb(0, 225, 255);
+    background-color: rgb(190, 102, 91);
 }
 .Credits{
     position: absolute;
